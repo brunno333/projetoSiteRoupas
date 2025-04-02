@@ -1,0 +1,26 @@
+{
+  "name": "projetoroupas",
+  "version": "1.0.0",
+  "description": "Projeto Site de Roupas",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "express-handlebars",
+    "bootstrap",
+    "mysql"
+  ],
+  "author": "brunno",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "express": "^4.21.2",
+    "express-fileupload": "^1.5.1",
+    "express-handlebars": "^8.0.1",
+    "mysql2": "^3.14.0",
+    "nodemon": "^3.1.9"
+  }
+}
